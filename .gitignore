@@ -1,0 +1,41 @@
+# Ignorar archivos y directorios generados por Virtualenv
+.env
+venv/
+virtualenv/
+
+# Ignorar archivos y directorios generados por Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignorar archivos y directorios generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos y directorios de configuración personal
+.vscode/
+.idea/
+
+# Ignorar archivos y directorios de logs y depuración
+logs/
+debug.log
+
+# Ignorar archivos y directorios de pruebas
+tests/__pycache__/
+tests/.pytest_cache/
+
+# Ignorar archivos y directorios de documentación
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# Ignorar archivos y directorios de paquetes de terceros
+node_modules/
+bower_components/
+
+# Ignorar archivos y directorios de configuración de la aplicación
+config.json
+config.yaml
+secrets.json
+secrets.yamlg
